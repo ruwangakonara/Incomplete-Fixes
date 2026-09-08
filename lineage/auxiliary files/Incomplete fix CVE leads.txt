@@ -1,0 +1,247 @@
+After reading through advisories, and subsequent AI prompting, these CVEs curated as incomplete case candidates with high confidence.
+
+
+
+https://nvd.nist.gov/vuln/detail/CVE-2026-50258
+https://nvd.nist.gov/vuln/detail/CVE-2026-49237
+https://nvd.nist.gov/vuln/detail/CVE-2026-42006
+https://nvd.nist.gov/vuln/detail/CVE-2026-40489
+https://nvd.nist.gov/vuln/detail/CVE-2026-37555
+https://nvd.nist.gov/vuln/detail/CVE-2026-3704
+https://nvd.nist.gov/vuln/detail/CVE-2026-3195
+https://nvd.nist.gov/vuln/detail/CVE-2026-27950
+https://nvd.nist.gov/vuln/detail/CVE-2026-1940
+https://nvd.nist.gov/vuln/detail/CVE-2026-11884
+https://nvd.nist.gov/vuln/detail/CVE-2025-68813
+https://nvd.nist.gov/vuln/detail/CVE-2025-68226
+https://nvd.nist.gov/vuln/detail/CVE-2025-48964
+https://nvd.nist.gov/vuln/detail/CVE-2025-46646
+https://nvd.nist.gov/vuln/detail/CVE-2025-38350
+https://nvd.nist.gov/vuln/detail/CVE-2025-38120
+https://nvd.nist.gov/vuln/detail/CVE-2025-2260
+https://nvd.nist.gov/vuln/detail/CVE-2025-2259
+
+
+
+https://nvd.nist.gov/vuln/detail/CVE-2025-22057
+https://nvd.nist.gov/vuln/detail/CVE-2024-45818
+https://nvd.nist.gov/vuln/detail/CVE-2024-2756
+https://nvd.nist.gov/vuln/detail/CVE-2023-38408
+https://nvd.nist.gov/vuln/detail/CVE-2023-35812
+https://nvd.nist.gov/vuln/detail/CVE-2023-33204
+
+https://nvd.nist.gov/vuln/detail/CVE-2024-2746
+https://nvd.nist.gov/vuln/detail/CVE-2023-47104
+https://nvd.nist.gov/vuln/detail/CVE-2023-39150
+
+https://nvd.nist.gov/vuln/detail/CVE-2022-4285
+https://nvd.nist.gov/vuln/detail/CVE-2022-3807
+https://nvd.nist.gov/vuln/detail/CVE-2022-2850
+
+https://nvd.nist.gov/vuln/detail/CVE-2023-2680
+https://nvd.nist.gov/vuln/detail/CVE-2023-26130
+https://nvd.nist.gov/vuln/detail/CVE-2022-48641
+
+https://nvd.nist.gov/vuln/detail/CVE-2022-26944
+https://nvd.nist.gov/vuln/detail/CVE-2022-23304
+https://nvd.nist.gov/vuln/detail/CVE-2022-23303
+
+https://nvd.nist.gov/vuln/detail/CVE-2022-1289
+https://nvd.nist.gov/vuln/detail/CVE-2021-45884
+https://nvd.nist.gov/vuln/detail/CVE-2021-41773
+
+https://nvd.nist.gov/vuln/detail/CVE-2021-37674
+https://nvd.nist.gov/vuln/detail/CVE-2021-35939
+https://nvd.nist.gov/vuln/detail/CVE-2021-32625
+
+https://nvd.nist.gov/vuln/detail/CVE-2021-28650
+https://nvd.nist.gov/vuln/detail/CVE-2021-28038 
+https://nvd.nist.gov/vuln/detail/CVE-2021-27379
+
+https://nvd.nist.gov/vuln/detail/CVE-2021-25289
+https://nvd.nist.gov/vuln/detail/CVE-2021-24032
+https://nvd.nist.gov/vuln/detail/CVE-2020-8832
+
+https://nvd.nist.gov/vuln/detail/CVE-2020-36314
+https://nvd.nist.gov/vuln/detail/CVE-2020-13776
+https://nvd.nist.gov/vuln/detail/CVE-2020-10772
+
+
+=====Lineage consructed and verified so far down to here
+
+
+https://nvd.nist.gov/vuln/detail/CVE-2025-2486
+
+
+ssus (incomlete or regression??) https://nvd.nist.gov/vuln/detail/CVE-2025-21916
+				      https://nvd.nist.gov/vuln/detail/CVE-2025-21709
+
+
+sus(incomlete or regression??)https://nvd.nist.gov/vuln/detail/CVE-2023-4194
+
+
+
+https://nvd.nist.gov/vuln/detail/CVE-2022-47934, https://nvd.nist.gov/vuln/detail/CVE-2022-47932
+
+
+
+“possibply incomplete fix” https://nvd.nist.gov/vuln/detail/CVE-2021-40575
+
+
+
+sus    https://nvd.nist.gov/vuln/detail/CVE-2020-36322
+
+https://nvd.nist.gov/vuln/detail/CVE-2019-5747
+https://nvd.nist.gov/vuln/detail/CVE-2019-25059
+https://nvd.nist.gov/vuln/detail/CVE-2019-20633
+https://nvd.nist.gov/vuln/detail/CVE-2019-19926
+https://nvd.nist.gov/vuln/detail/CVE-2019-19580
+https://nvd.nist.gov/vuln/detail/CVE-2019-19579
+https://nvd.nist.gov/vuln/detail/CVE-2019-15141
+https://nvd.nist.gov/vuln/detail/CVE-2019-10063
+https://nvd.nist.gov/vuln/detail/CVE-2018-7440
+https://nvd.nist.gov/vuln/detail/CVE-2018-7184
+https://nvd.nist.gov/vuln/detail/CVE-2018-7170
+https://nvd.nist.gov/vuln/detail/CVE-2018-7054
+https://nvd.nist.gov/vuln/detail/CVE-2018-5816
+https://nvd.nist.gov/vuln/detail/CVE-2018-20750
+https://nvd.nist.gov/vuln/detail/CVE-2018-20749
+https://nvd.nist.gov/vuln/detail/CVE-2018-20748
+https://nvd.nist.gov/vuln/detail/CVE-2018-18559
+https://nvd.nist.gov/vuln/detail/CVE-2018-17961
+https://nvd.nist.gov/vuln/detail/CVE-2018-17854
+https://nvd.nist.gov/vuln/detail/CVE-2018-16802
+https://nvd.nist.gov/vuln/detail/CVE-2018-14651
+https://nvd.nist.gov/vuln/detail/CVE-2018-1064
+c or javascript??? https://nvd.nist.gov/vuln/detail/CVE-2018-1000118
+https://nvd.nist.gov/vuln/detail/CVE-2018-0489
+https://nvd.nist.gov/vuln/detail/CVE-2017-9951
+https://nvd.nist.gov/vuln/detail/CVE-2017-9050
+https://nvd.nist.gov/vuln/detail/CVE-2017-9049
+https://nvd.nist.gov/vuln/detail/CVE-2017-8921
+https://nvd.nist.gov/vuln/detail/CVE-2017-7578
+https://nvd.nist.gov/vuln/detail/CVE-2017-7275
+https://nvd.nist.gov/vuln/detail/CVE-2017-7263
+c/c++? java? Closed source??? https://nvd.nist.gov/vuln/detail/CVE-2017-7221
+https://nvd.nist.gov/vuln/detail/CVE-2017-6001
+https://nvd.nist.gov/vuln/detail/CVE-2017-5940
+https://nvd.nist.gov/vuln/detail/CVE-2017-5668
+https://nvd.nist.gov/vuln/detail/CVE-2017-5551
+https://nvd.nist.gov/vuln/detail/CVE-2017-15939
+https://nvd.nist.gov/vuln/detail/CVE-2017-14164
+https://nvd.nist.gov/vuln/detail/CVE-2017-14136
+https://nvd.nist.gov/vuln/detail/CVE-2017-14103
+https://nvd.nist.gov/vuln/detail/CVE-2017-11411
+https://nvd.nist.gov/vuln/detail/CVE-2017-11410
+https://nvd.nist.gov/vuln/detail/CVE-2017-11352
+https://nvd.nist.gov/vuln/detail/CVE-2017-11343
+https://nvd.nist.gov/vuln/detail/CVE-2017-0360
+https://nvd.nist.gov/vuln/detail/CVE-2016-9936
+https://nvd.nist.gov/vuln/detail/CVE-2016-9773
+regressioin apparently https://nvd.nist.gov/vuln/detail/CVE-2016-9448
+https://nvd.nist.gov/vuln/detail/CVE-2016-9109
+https://nvd.nist.gov/vuln/detail/CVE-2016-8884
+https://nvd.nist.gov/vuln/detail/CVE-2016-8866
+https://nvd.nist.gov/vuln/detail/CVE-2016-8676
+https://nvd.nist.gov/vuln/detail/CVE-2016-8671
+https://nvd.nist.gov/vuln/detail/CVE-2016-6225
+https://nvd.nist.gov/vuln/detail/CVE-2016-5300
+https://nvd.nist.gov/vuln/detail/CVE-2016-5095
+https://nvd.nist.gov/vuln/detail/CVE-2016-4956
+https://nvd.nist.gov/vuln/detail/CVE-2016-4574
+regression + incomplete https://nvd.nist.gov/vuln/detail/CVE-2016-4473
+rgression https://nvd.nist.gov/vuln/detail/CVE-2016-4472
+https://nvd.nist.gov/vuln/detail/CVE-2016-3706
+https://nvd.nist.gov/vuln/detail/CVE-2016-1967
+https://nvd.nist.gov/vuln/detail/CVE-2016-1939
+incomplete + regression - https://nvd.nist.gov/vuln/detail/CVE-2016-10250
+https://nvd.nist.gov/vuln/detail/CVE-2016-10088
+https://nvd.nist.gov/vuln/detail/CVE-2015-8708
+https://nvd.nist.gov/vuln/detail/CVE-2015-8553
+https://nvd.nist.gov/vuln/detail/CVE-2015-8472
+https://nvd.nist.gov/vuln/detail/CVE-2015-8078
+https://nvd.nist.gov/vuln/detail/CVE-2015-8077
+https://nvd.nist.gov/vuln/detail/CVE-2015-7990
+https://nvd.nist.gov/vuln/detail/CVE-2015-7702
+https://nvd.nist.gov/vuln/detail/CVE-2015-7692
+https://nvd.nist.gov/vuln/detail/CVE-2015-7691
+https://nvd.nist.gov/vuln/detail/CVE-2015-6674
+https://nvd.nist.gov/vuln/detail/CVE-2015-6575
+https://nvd.nist.gov/vuln/detail/CVE-2015-5470
+https://nvd.nist.gov/vuln/detail/CVE-2015-5070
+https://nvd.nist.gov/vuln/detail/CVE-2015-4644
+https://nvd.nist.gov/vuln/detail/CVE-2015-4643
+https://nvd.nist.gov/vuln/detail/CVE-2015-4026
+https://nvd.nist.gov/vuln/detail/CVE-2015-4025
+https://nvd.nist.gov/vuln/detail/CVE-2015-3864
+https://nvd.nist.gov/vuln/detail/CVE-2015-3427
+regression??? https://nvd.nist.gov/vuln/detail/CVE-2015-2348
+https://nvd.nist.gov/vuln/detail/CVE-2015-2313
+https://nvd.nist.gov/vuln/detail/CVE-2015-2265
+https://nvd.nist.gov/vuln/detail/CVE-2015-1572
+https://nvd.nist.gov/vuln/detail/CVE-2015-1396
+https://nvd.nist.gov/vuln/detail/CVE-2015-0231
+https://nvd.nist.gov/vuln/detail/CVE-2015-0224
+https://nvd.nist.gov/vuln/detail/CVE-2014-9659
+https://nvd.nist.gov/vuln/detail/CVE-2014-8481
+https://nvd.nist.gov/vuln/detail/CVE-2014-8106
+https://nvd.nist.gov/vuln/detail/CVE-2014-7824
+regresion? https://nvd.nist.gov/vuln/detail/CVE-2014-7169
+regressiob? https://nvd.nist.gov/vuln/detail/CVE-2014-6278
+rergressions ?https://nvd.nist.gov/vuln/detail/CVE-2014-6277
+regression ? https://nvd.nist.gov/vuln/detail/CVE-2014-5029
+https://nvd.nist.gov/vuln/detail/CVE-2014-4703
+https://nvd.nist.gov/vuln/detail/CVE-2014-4336
+https://nvd.nist.gov/vuln/detail/CVE-2014-3683
+https://nvd.nist.gov/vuln/detail/CVE-2014-3597
+https://nvd.nist.gov/vuln/detail/CVE-2014-3587
+https://nvd.nist.gov/vuln/detail/CVE-2014-3538
+https://nvd.nist.gov/vuln/detail/CVE-2014-2037
+https://nvd.nist.gov/vuln/detail/CVE-2014-1832
+A++ and java????https://nvd.nist.gov/vuln/detail/CVE-2014-1566 
+https://nvd.nist.gov/vuln/detail/CVE-2014-1226
+C – Cpython https://nvd.nist.gov/vuln/detail/CVE-2013-7040
+
+https://nvd.nist.gov/vuln/detail/CVE-2013-6934
+https://nvd.nist.gov/vuln/detail/CVE-2013-6486
+https://nvd.nist.gov/vuln/detail/CVE-2013-4520
+https://nvd.nist.gov/vuln/detail/CVE-2013-4487
+https://nvd.nist.gov/vuln/detail/CVE-2013-4458
+https://nvd.nist.gov/vuln/detail/CVE-2013-2075
+https://nvd.nist.gov/vuln/detail/CVE-2013-1799
+https://nvd.nist.gov/vuln/detail/CVE-2013-1715
+https://nvd.nist.gov/vuln/detail/CVE-2013-0198
+https://nvd.nist.gov/vuln/detail/CVE-2012-6696
+https://nvd.nist.gov/vuln/detail/CVE-2012-4481
+regression??? https://nvd.nist.gov/vuln/detail/CVE-2012-4414
+https://nvd.nist.gov/vuln/detail/CVE-2012-2751
+https://nvd.nist.gov/vuln/detail/CVE-2012-2375
+
+https://nvd.nist.gov/vuln/detail/CVE-2012-2336 (group of incomplete fixes?)
+https://nvd.nist.gov/vuln/detail/CVE-2012-2311 (group of incomplete fixes?)
+https://nvd.nist.gov/vuln/detail/CVE-2012-2131
+https://nvd.nist.gov/vuln/detail/CVE-2012-2100 (regression?)
+https://nvd.nist.gov/vuln/detail/CVE-2012-1610
+https://nvd.nist.gov/vuln/detail/CVE-2012-1186
+https://nvd.nist.gov/vuln/detail/CVE-2012-1185
+https://nvd.nist.gov/vuln/detail/CVE-2012-0954
+https://nvd.nist.gov/vuln/detail/CVE-2012-0859
+https://nvd.nist.gov/vuln/detail/CVE-2011-5055
+https://nvd.nist.gov/vuln/detail/CVE-2011-4348
+sibling cases (https://nvd.nist.gov/vuln/detail/CVE-2011-4317, https://nvd.nist.gov/vuln/detail/CVE-2011-3639 )
+https://nvd.nist.gov/vuln/detail/CVE-2011-2182
+https://nvd.nist.gov/vuln/detail/CVE-2011-1782
+https://nvd.nist.gov/vuln/detail/CVE-2011-1586
+https://nvd.nist.gov/vuln/detail/CVE-2011-1021
+Subtle specialty?https://nvd.nist.gov/vuln/detail/CVE-2010-4805 (2024 commit references final fx)
+Subtle specialty?https://nvd.nist.gov/vuln/detail/CVE-2010-4668 (original CVE has miultiple fixes)
+https://nvd.nist.gov/vuln/detail/CVE-2010-3477
+regression??? sibling cases(https://nvd.nist.gov/vuln/detail/CVE-2010-3430 , https://nvd.nist.gov/vuln/detail/CVE-2010-3431)
+siblliung cases(https://nvd.nist.gov/vuln/detail/CVE-2010-2546, https://nvd.nist.gov/vuln/detail/CVE-2010-2971
+set of flaws https://nvd.nist.gov/vuln/detail/CVE-2010-2950
+
+
+Seriously Problematic https://nvd.nist.gov/vuln/detail/CVE-2010-2760  Regression??? Incmplete??
+
+ 
+https://nvd.nist.gov/vuln/detail/CVE-2010-2322 
