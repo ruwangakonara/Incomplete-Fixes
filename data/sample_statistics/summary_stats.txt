@@ -1,0 +1,107 @@
+INCOMPLETE-FIX CASE SET (51 cases / 52 rows) -- SUMMARY STATISTICS
+======================================================================
+Total rows analyzed: 52
+
+Subtype distribution:
+  Wrong invariant / off-by-construction                 9  (17.3%)
+  Upstream/downstream caller miss                       7  (13.5%)
+  Field/parameter-family miss                           7  (13.5%)
+  Scope-of-audit miss                                   6  (11.5%)
+  Parallel implementation miss                          5  ( 9.6%)
+  Symmetric/dual-operation miss                         4  ( 7.7%)
+  Security logic implemented but not applied            4  ( 7.7%)
+  Backport/distro re-derivation miss                    4  ( 7.7%)
+  Delegated/unaudited external-dependency miss          2  ( 3.8%)
+  Threat-model too narrow (who/what unconsidered)       1  ( 1.9%)
+  Platform/environment-dependent assumption             1  ( 1.9%)
+  Packaging/backport assertion failure                  1  ( 1.9%)
+  Incidental invariant loss (refactor side-effect)      1  ( 1.9%)
+
+Parent-group distribution:
+  Structural Duplication             26  (50.0%)
+  Logic / Invariant Error            11  (21.2%)
+  Call-Chain / Scope                  7  (13.5%)
+  Dual-Operation Symmetry             4  ( 7.7%)
+  Trust-Boundary / Delegation Gap     3  ( 5.8%)
+  Process / Supply-Chain Failure      1  ( 1.9%)
+
+CWE frequency (case may touch >1 CWE):
+  CWE-416     7
+  CWE-190     4
+  CWE-20      4
+  CWE-22      4
+  CWE-476     4
+  CWE-400     3
+  CWE-401     3
+  CWE-200     3
+  CWE-787     3
+  CWE-121     2
+  CWE-770     2
+  CWE-203     2
+  CWE-276     2
+  CWE-122     2
+  CWE-59      2
+  CWE-208     2
+  CWE-706     1
+  CWE-191     1
+  CWE-459     1
+  CWE-125     1
+  CWE-838     1
+  CWE-172     1
+  CWE-1233    1
+  CWE-252     1
+  CWE-248     1
+  CWE-681     1
+  CWE-829     1
+  CWE-369     1
+  CWE-668     1
+  CWE-362     1
+  CWE-667     1
+  CWE-78      1
+  CWE-77      1
+  CWE-269     1
+  CWE-404     1
+  CWE-406     1
+  CWE-113     1
+  CWE-93      1
+
+Gap-to-discovery buckets:
+  < 1 week        2
+  1-4 weeks       6
+  1-6 months      9
+  6-24 months    13
+  2+ years       14
+  Unknown         8
+
+Ecosystem split:
+  Network Daemon / Protocol Server    9
+  OS Kernel                           9
+  Parsing / Data-format Library       6
+  Browser / Web Client                4
+  System Utility / Init               4
+  Hypervisor / Virtualization         3
+  Archive / Compression Tool          3
+  Language Runtime / Interpreter      3
+  Media / Codec Library               2
+  Wireless / WPA Security             2
+  Windowing / Display System          1
+  VM / Container Management           1
+  Remote Access Client                1
+  Print/Document Interpreter          1
+  GUI / Desktop Utility Library       1
+  Backup / Ops Tool                   1
+  HTTP Client Library                 1
+
+Language split:
+  C                                  42
+  C++                                 9
+  Shell/Config (non-memory-safety)    1
+
+Discoverer type split:
+  Named Independent Researcher                         27
+  Vendor / Security Team / Coordinated Research Group  15
+  Unknown / Not named                                   6
+  Automated (fuzzing/CI/static-analysis)                4
+
+Unresolved lineages: 1 / 52
+CVSS delta (bypass - original), n=15: mean=-0.10, median=0.00

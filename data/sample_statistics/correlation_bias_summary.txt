@@ -1,0 +1,44 @@
+PILOT CORRELATION / BIAS / ML-FEASIBILITY SUMMARY (n=52, projected scale-up 5x)
+==============================================================================
+
+Categorical associations:
+                          pair   chi2  dof  p_value  cramers_v  pct_cells_expected_lt_5
+         subtype x primary_cwe 324.40  300   0.1593      0.721                    100.0
+     subtype x discoverer_type  51.08   36   0.0492      0.572                    100.0
+      subtype x ecosystem_tier  33.40   24   0.0960      0.567                    100.0
+       subtype x language_norm  20.91   24   0.6442      0.448                     92.3
+ parent_group x ecosystem_tier  20.44   10   0.0253      0.443                     83.3
+          subtype x gap_bucket  42.60   60   0.9566      0.405                    100.0
+parent_group x discoverer_type  15.18   15   0.4389      0.312                     87.5
+     parent_group x gap_bucket  18.92   25   0.8011      0.270                     94.4
+
+ML-feasibility (LOOCV):
+                                         n_classes  majority_baseline  logreg_acc  logreg_macro_f1  naivebayes_acc  naivebayes_macro_f1
+task                                                                                                                                   
+Subtype (13-way)                                13           0.173077    0.365385         0.181214        0.307692             0.116959
+Parent group (6-way)                             6           0.500000    0.519231         0.140332        0.538462             0.165317
+Structural-Duplication vs rest (binary)          2           0.500000    0.769231         0.768889        0.846154             0.845926
+
+Leakage check: majority=50.00%  product-only=48.08%  text=51.92%
+
+Subtypes still below n=10 floor at 5x projection (4/13): ['Incidental invariant loss (refactor side-effect)', 'Packaging/backport assertion failure', 'Platform/environment-dependent assumption', 'Threat-model too narrow (who/what unconsidered)']
+Associations reaching 80% power at 5x (8/8):
+                             pair  cohens_w  power_at_current_n  n_needed_for_80pct_power  reachable_at_5x
+3           subtype x primary_cwe  2.497691            1.000000                        11             True
+2       subtype x discoverer_type  0.991114            0.992883                        27             True
+0        subtype x ecosystem_tier  0.801441            0.954604                        36             True
+4            subtype x gap_bucket  0.905114            0.924836                        40             True
+5   parent_group x ecosystem_tier  0.626958            0.898410                        42             True
+1         subtype x language_norm  0.634126            0.760403                        56             True
+6       parent_group x gap_bucket  0.603197            0.693419                        63             True
+7  parent_group x discoverer_type  0.540299            0.683499                        65             True
+
+Binary detector CI: current (72.48%-91.99%) -> 5x best-case (79.73%-88.49%)
+
+Structural limitation: 100% positive-class dataset. 'Any incomplete fix, yes/no' needs
+risk-scoring / one-class / PU-learning framing (see notebook Section 8), not ordinary binary
+classification, regardless of dataset size. Subtype-among-confirmed-incomplete-fixes IS
+supported and is where the strongest pilot signal (binary structural-duplication detector) was found.
+
+RECOMMENDATION: proceed with full dataset build-out, but stratify collection toward rare
+subtypes and under-represented products rather than uniform 5x scaling.
